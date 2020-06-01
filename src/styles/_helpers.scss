@@ -1,0 +1,39 @@
+.mar-bottom-std {
+  margin-bottom: 1rem;
+}
+.mar-bottom-small {
+  margin-bottom: 0.5rem;
+}
+.mar-bottom-tiny {
+  margin-bottom: 0.3rem;
+}
+.pad-bottom-std {
+  padding-bottom: 1rem;
+}
+.bottom-line-headline {
+  padding-bottom: 0.5rem;
+  padding-left: $app-padding;
+  padding-right: $app-padding;
+  border-bottom: 1px dotted $separators-color;
+  margin-top: 0;
+  margin-left: -$app-padding;
+  margin-bottom: 1rem;
+  margin-right: -$app-padding;
+  @media (min-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  box-shadow: $shadow;
+  &.no-mar-bottom {
+    margin-bottom: 0;
+  }
+}
+.dotted-shadow-separated {
+  margin: 0 -1rem;
+  padding: 0 1.25rem 1rem 1.25rem;
+  border-bottom: 1px dotted $light-grey;
+  box-shadow: $light-shadow;
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}

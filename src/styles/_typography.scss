@@ -1,0 +1,23 @@
+$h1-font-size-mobile: 1.4rem;
+$h2-font-size-mobile: 1.3rem;
+$h3-font-size-mobile: 1.2rem;
+$h4-font-size-mobile: 1.1rem;
+h1,h2,h3,h4,p {
+  text-align: left;
+}
+h1 {
+  font-size: $h1-font-size-mobile;
+}
+h2 {
+  font-size: $h2-font-size-mobile;
+}
+h3 {
+  font-size: $h3-font-size-mobile;
+}
+h4 {
+  font-size: $h4-font-size-mobile;
+}
+
+p {
+  margin: 1rem 0;
+}
